@@ -18,7 +18,6 @@ ayunami2000:
  - Resource packs, screen recording, seamless fullscreen
 
 GLM-Craft (this project):
-[your name/handle]:
  - Mod support system (new — not in original Eaglercraft)
  - Custom render options
  - RAM allocation controls
