@@ -1,3 +1,15 @@
+Hello! Start by reading our Credits and the stuff below, its important to credit everyone involved in the project of EagleCraft And What this launcher actually does and why you should choose us!
+
+Why GLM-Launcher?
+-We offer updates often.
+-You can run EagleCraft offline.
+-We prefer performance over UI. Meaning, we do updates with alot of performance updates.
+-We offer customisations, you can allocate ram, change renderer (opengl 1 or opengl 2)
+-We run on mobile and pc. theres HUD controls for mobile. its works well, and not made by me.
+-No localhost requires, its a single .html file, install and launch.
+-Optimised (runs on a old laptop with no GPU and a weak CPU thats a decade and more old.)
+-Mod support, you can get a .js mod from us, or make your own!
+
 # GLM-Launcher-Minecraft-On-Web
 A launcher that lets you play minecraft on the web with built in mods, user managment,settings and soon more. it runs modified eaglecraft.
 this just gives you a launcher with options for eaglecraft, I don't claim the engine or the work for eaglecraft. it's massively optimised and added some stuff (listed below)
@@ -24,8 +36,6 @@ GLM-Craft (this project):
  - RAM allocation controls
  - Rebuilt skin/username selector
  - Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)
-
- idk why pics dont show, click the link to see screenshots
 
  <img width="1280" height="768" alt="632045442-64f3b2df-88d1-469d-9e90-931a6c39a3d4" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
 
