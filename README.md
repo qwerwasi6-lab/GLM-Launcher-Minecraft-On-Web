@@ -1,42 +1,62 @@
-Hello! Start by reading our Credits and the stuff below, its important to credit everyone involved in the project of EagleCraft And What this launcher actually does and why you should choose us!
+# 🚀 GLM-Launcher-Minecraft-On-Web
 
-Why GLM-Launcher?
--We offer updates often.
--You can run EagleCraft offline.
--We prefer performance over UI. Meaning, we do updates with alot of performance updates.
--We offer customisations, you can allocate ram, change renderer (opengl 1 or opengl 2)
--We run on mobile and pc. theres HUD controls for mobile. its works well, and not made by me.
--No localhost requires, its a single .html file, install and launch.
--Optimised (runs on a old laptop with no GPU and a weak CPU thats a decade and more old.)
--Mod support, you can get a .js mod from us, or make your own!
+A launcher that lets you play Minecraft on the web with built-in mods, user management, settings, and soon more. It runs modified Eaglercraft.
 
-# GLM-Launcher-Minecraft-On-Web
-A launcher that lets you play minecraft on the web with built in mods, user managment,settings and soon more. it runs modified eaglecraft.
-this just gives you a launcher with options for eaglecraft, I don't claim the engine or the work for eaglecraft. it's massively optimised and added some stuff (listed below)
+This just gives you a launcher with options for Eaglercraft — I don't claim the engine or the work for Eaglercraft. It's massively optimized and adds some stuff (listed below) ⚙️
 
-GLM-Craft Credits
-~~~~~~~~~~~~~~~~~~
+---
 
-Original Eaglercraft:
-lax1dude:
- - Creator of Eaglercraft
- - Ported Minecraft 1.8 source to TeaVM
- - Core optimization, platform abstraction layer, OpenGL emulator
- - Shader pack, PBR resource pack, mobile/touch support
- - Multiplayer backends, shared world relay server, patch/build system
+## 👋 Welcome
 
-ayunami2000:
- - Bug fixes, WebRTC shared worlds & voice chat
- - Touch support, velocity plugin support
- - Resource packs, screen recording, seamless fullscreen
+Start by reading our **Credits** below — it's important to credit everyone involved in the Eaglercraft project. Then check out what this launcher actually does, and why you should choose us! 💚
 
-GLM-Craft (this project):
- - Mod support system (new — not in original Eaglercraft)
- - Custom render options
- - RAM allocation controls
- - Rebuilt skin/username selector
- - Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)
+---
 
- <img width="1280" height="768" alt="632045442-64f3b2df-88d1-469d-9e90-931a6c39a3d4" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
+## ✨ Why GLM-Launcher?
 
-<img width="1280" height="768" alt="632044722-52b1f150-6d06-4188-a68f-c5521bdd394c" src="https://github.com/user-attachments/assets/f5067d0e-7d02-4caa-9a7f-c459d89eea43" />
+- 🔄 **Frequent updates** — we ship updates often
+- 📴 **Fully offline** — run Eaglercraft with no internet required after load
+- ⚡ **Performance-first** — we prioritize performance over UI, with regular performance-focused updates
+- 🎛️ **Deep customization** — allocate RAM, switch renderer (OpenGL 1 or OpenGL 2)
+- 📱 **Mobile + PC support** — HUD controls for mobile that actually work well (credit to the original creator, not made by me!)
+- 🗂️ **No localhost required** — single `.html` file, just install and launch
+- 🐢➡️🐇 **Optimized for old hardware** — runs on a decade-plus-old laptop with no GPU and a weak CPU
+- 🧩 **Mod support** — grab a `.js` mod from us, or make your own!
+
+---
+
+## 🙌 Credits
+
+### Original Eaglercraft
+
+**lax1dude:**
+- Creator of Eaglercraft
+- Ported Minecraft 1.8 source to TeaVM
+- Core optimization, platform abstraction layer, OpenGL emulator
+- Shader pack, PBR resource pack, mobile/touch support
+- Multiplayer backends, shared world relay server, patch/build system
+
+**ayunami2000:**
+- Bug fixes, WebRTC shared worlds & voice chat
+- Touch support, Velocity plugin support
+- Resource packs, screen recording, seamless fullscreen
+
+### GLM-Craft (this project) 🛠️
+
+- 🧩 Mod support system (new — not in original Eaglercraft)
+- 🎨 Custom render options
+- 💾 RAM allocation controls
+- 👤 Rebuilt skin/username selector
+- ⚡ Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)
+
+---
+
+## 📸 Screenshots
+
+<img width="1280" height="768" alt="GLM Launcher Home" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
+
+<img width="1280" height="768" alt="GLM Launcher Gameplay" src="https://github.com/user-attachments/assets/f5067d0e-7d02-4caa-9a7f-c459d89eea43" />
+
+---
+
+⭐ If you like this project, consider starring the repo!
