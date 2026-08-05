@@ -1,5 +1,6 @@
 # GLM-Launcher-Minecraft-On-Web
 A launcher that lets you play minecraft on the web with built in mods, user managment,settings and soon more. it runs modified eaglecraft.
+this just gives you a launcher with options for eaglecraft, I don't claim the engine or the work for eaglecraft. it's massively optimised and added some stuff (listed below)
 
 GLM-Craft Credits
 ~~~~~~~~~~~~~~~~~~
