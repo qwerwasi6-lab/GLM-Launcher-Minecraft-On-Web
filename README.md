@@ -1,6 +1,6 @@
 # 🚀 GLM-Launcher-Minecraft-On-Web
 
-A launcher that lets you play Minecraft on the web with built-in mods, user management, settings, and soon more. It runs modified Eaglercraft.
+A launcher that lets you play Minecraft on the web with built-in mods, resource packs, shaders, user management, settings, and soon more. It runs modified Eaglercraft.
 
 This just gives you a launcher with options for Eaglercraft — I don't claim the engine or the work for Eaglercraft. It's massively optimized and adds some stuff (listed below) ⚙️
 
@@ -18,6 +18,8 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 - 📴 **Fully offline** — run Eaglercraft with no internet required after load
 - ⚡ **Performance-first** — we prioritize performance over UI, with regular performance-focused updates
 - 🎛️ **Deep customization** — allocate RAM, switch renderer (OpenGL 1 or OpenGL 2)
+- 🎨 **Shader support** — built-in presets (No Shaders, Basic, Full, Performance), or upload your own custom shader packs (`.zip`)
+- 🖼️ **Resource pack support** — upload and apply your own custom resource packs (`.zip`)
 - 📱 **Mobile + PC support** — HUD controls for mobile that actually work well (credit to the original creator, not made by me!)
 - 🗂️ **No localhost required** — single `.html` file, just install and launch
 - 🐢➡️🐇 **Optimized for old hardware** — runs on a decade-plus-old laptop with no GPU and a weak CPU
@@ -44,7 +46,9 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 ### GLM-Craft (this project) 🛠️
 
 - 🧩 Mod support system (new — not in original Eaglercraft)
-- 🎨 Custom render options
+- 🎨 Shader support (built-in presets + custom shader pack uploads)
+- 🖼️ Resource pack support (custom resource pack uploads)
+- 🎛️ Custom render options
 - 💾 RAM allocation controls
 - 👤 Rebuilt skin/username selector
 - ⚡ Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)
