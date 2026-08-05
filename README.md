@@ -23,6 +23,10 @@ GLM-Craft (this project):
  - Custom render options
  - RAM allocation controls
  - Rebuilt skin/username selector
- - Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)<img width="1280" height="768" alt="632045442-64f3b2df-88d1-469d-9e90-931a6c39a3d4" src="https://github.com/user-attachments/assets/778e9fbc-4b70-4a84-891e-d9fd30e13859" />
-<img width="1280" height="768" alt="632044722-52b1f150-6d06-4188-a68f-c5521bdd394c" src="https://github.com/user-attachments/assets/9171c002-3ae0-421e-8513-59cf6e2732b3" />
+ - Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)
 
+ idk why pics dont show, click the link to see screenshots
+
+ <img width="1280" height="768" alt="632045442-64f3b2df-88d1-469d-9e90-931a6c39a3d4" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
+
+<img width="1280" height="768" alt="632044722-52b1f150-6d06-4188-a68f-c5521bdd394c" src="https://github.com/user-attachments/assets/f5067d0e-7d02-4caa-9a7f-c459d89eea43" />
