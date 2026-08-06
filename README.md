@@ -52,6 +52,14 @@ Benchmarked on a mobile device with limited native OpenGL support:
 
 - 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's core rendering system and TeaVM source tuning
 
+Benchmarked on a mobile device after WebGPU support (Using vulkan on WebGPU)
+
+- 🎯 60FPS Locked, No stutters or lag
+
+- 🧱 Zero FPS drop during chunk loading
+
+- 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's core rendering system and TeaVM source tuning and WebGPU implementation!
+
 ---
 
 ## 🙌 Credits
