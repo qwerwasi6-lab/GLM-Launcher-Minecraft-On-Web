@@ -42,15 +42,13 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 
 ## ⚡ Performance
 
-Benchmarked on legacy hardware without dedicated graphics:
+Benchmarked on a phone that doesnt support most of the opengl stuff:
 
 - 🎯 49–60 FPS with shaders enabled
 
 - 🧱 Zero FPS drop during chunk loading
 
 - 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's core rendering system
-
-I haven't found another Eaglercraft launcher that's rewritten core rendering code for performance — if you know of one, open an issue and I'll check it out.
 
 ---
 
@@ -80,7 +78,7 @@ I haven't found another Eaglercraft launcher that's rewritten core rendering cod
 
 ### GLM-Craft (this project) 🛠️
 
-- 🌋 Vulkan (WebGPU) engine port (unreleased / releasing soon)
+- 🌋 Vulkan GPU support (for mobile only most likely) (WebGPU) engine port (unreleased / releasing soon)
 
 - 🧩 Mod support system (new — not in original Eaglercraft)
 
