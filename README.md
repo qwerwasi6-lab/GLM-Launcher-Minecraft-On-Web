@@ -98,7 +98,11 @@ Benchmarked on a phone that doesnt support most of the opengl stuff:
 
 ## 📸 Screenshots
 
+- Picture of the launcher (Note: Launcher changes design frequently, this might be outdated.)
+
 <img width="1280" height="768" alt="GLM Launcher Home" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
+
+- Picture of a PC test (Old PC, no GPU, old CPU. performance is excepted to be low, but getting stable 40-50fps due to performance edits!)
 
 <img width="1280" height="768" alt="GLM Launcher Gameplay" src="https://github.com/user-attachments/assets/f5067d0e-7d02-4caa-9a7f-c459d89eea43" />
 
