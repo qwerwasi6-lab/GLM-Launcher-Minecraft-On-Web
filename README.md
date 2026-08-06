@@ -1,9 +1,10 @@
 # 🚀 GLM-Launcher-Minecraft-On-Web
 
-A launcher that lets you play Minecraft on the web with built-in mods, resource packs, shaders, user management, settings, and soon more. It runs modified Eaglercraft.
-Not to mention the amazing performance!
+A **mobile-focused web launcher** designed to run modified Eaglercraft directly in your browser with touch-first controls, built-in mods, shaders, resource packs, and custom settings (PC is fully supported too!). 
 
-This just gives you a launcher with options for Eaglercraft — I don't claim the engine or the work for Eaglercraft. It's massively optimized and adds some stuff (listed below) ⚙️
+It delivers massive performance gains, and an unreleased version is dropping soon featuring a **successful port of Vulkan (via WebGPU)** to push browser rendering even further.
+
+This project provides a customizable launcher layer for Eaglercraft — I do not claim ownership of the underlying engine. It is aggressively optimized and includes custom additions detailed below ⚙️
 
 ---
 
@@ -15,26 +16,39 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 
 ## ✨ Why GLM-Launcher?
 
-- 🔄 **Frequent updates** — we ship updates often
-- 📴 **Fully offline** — run Eaglercraft with no internet required after load
-- ⚡ **Performance-first** — we prioritize performance over UI, with regular performance-focused updates
-- 🎛️ **Deep customization** — allocate RAM, switch renderer (OpenGL 1 or OpenGL 2)
-- 🎨 **Shader support** — built-in presets (No Shaders, Basic, Full, Performance), or upload your own custom shader packs (`.zip`)
-- 🖼️ **Resource pack support** — upload and apply your own custom resource packs (`.zip`)
-- 📱 **Mobile + PC support** — HUD controls for mobile that actually work well (credit to the original creator, not made by me!)
-- 🗂️ **No localhost required** — single `.html` file, just install and launch
-- 🐢➡️🐇 **Optimized for old hardware** — runs on a decade-plus-old laptop with no GPU and a weak CPU
-- 🧩 **Mod support** — grab a `.js` mod from us, or make your own!
+- 📱 **Mobile-First Design** — Tailored experience with HUD controls for mobile that actually work well (credit to the original creator!), while maintaining full PC compatibility.
+
+- 🌋 **Vulkan (WebGPU) Support Coming Soon** — Successfully ported Vulkan via WebGPU in an unreleased build that will be released shortly for next-level browser graphics performance.
+
+- 🔄 **Frequent updates** — Active development with continuous feature drops.
+
+- 📴 **Fully offline** — Run Eaglercraft with no internet required after the initial load.
+
+- ⚡ **Performance-first** — Engine optimizations take priority over UI fluff, backed by regular performance patches.
+
+- 🎛️ **Deep customization** — Allocate RAM and switch renderer modes on the fly.
+
+- 🎨 **Shader support** — Built-in presets (No Shaders, Basic, Full, Performance), or upload your own custom shader packs (`.zip`).
+
+- 🖼️ **Resource pack support** — Upload and apply your own custom resource packs (`.zip`).
+
+- 🗂️ **No localhost required** — Single `.html` file, just install and launch.
+
+- 🐢➡️🐇 **Optimized for low-end hardware** — Scales smoothly down to weak mobile chips and decade-old laptops without dedicated GPUs.
+
+- 🧩 **Mod support** — Load provided `.js` mods or craft your own!
 
 ---
 
 ## ⚡ Performance
 
-Benchmarked on a decade-old laptop with no dedicated GPU:
+Benchmarked on legacy hardware without dedicated graphics:
 
 - 🎯 49–60 FPS with shaders enabled
-- 🧱 No FPS drop during chunk loading
-- 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's rendering system
+
+- 🧱 Zero FPS drop during chunk loading
+
+- 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's core rendering system
 
 I haven't found another Eaglercraft launcher that's rewritten core rendering code for performance — if you know of one, open an issue and I'll check it out.
 
@@ -45,25 +59,41 @@ I haven't found another Eaglercraft launcher that's rewritten core rendering cod
 ### Original Eaglercraft
 
 **lax1dude:**
+
 - Creator of Eaglercraft
+
 - Ported Minecraft 1.8 source to TeaVM
+
 - Core optimization, platform abstraction layer, OpenGL emulator
+
 - Shader pack, PBR resource pack, mobile/touch support
+
 - Multiplayer backends, shared world relay server, patch/build system
 
 **ayunami2000:**
+
 - Bug fixes, WebRTC shared worlds & voice chat
+
 - Touch support, Velocity plugin support
+
 - Resource packs, screen recording, seamless fullscreen
 
 ### GLM-Craft (this project) 🛠️
 
+- 🌋 Vulkan (WebGPU) engine port (unreleased / releasing soon)
+
 - 🧩 Mod support system (new — not in original Eaglercraft)
+
 - 🎨 Shader support (built-in presets + custom shader pack uploads)
+
 - 🖼️ Resource pack support (custom resource pack uploads)
+
 - 🎛️ Custom render options
+
 - 💾 RAM allocation controls
+
 - 👤 Rebuilt skin/username selector
+
 - ⚡ Performance optimizations, including partial rewrites of the rendering system, draw call batching, texture/mipmap tuning, frustum culling, and post-processing improvements
 
 ---
