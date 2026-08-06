@@ -27,6 +27,18 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 
 ---
 
+## ⚡ Performance
+
+Benchmarked on a decade-old laptop with no dedicated GPU:
+
+- 🎯 49–60 FPS with shaders enabled
+- 🧱 No FPS drop during chunk loading
+- 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's rendering system
+
+I haven't found another Eaglercraft launcher that's rewritten core rendering code for performance — if you know of one, open an issue and I'll check it out.
+
+---
+
 ## 🙌 Credits
 
 ### Original Eaglercraft
@@ -51,7 +63,7 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 - 🎛️ Custom render options
 - 💾 RAM allocation controls
 - 👤 Rebuilt skin/username selector
-- ⚡ Performance optimizations (singleplayer server delay fixes, FPS-boosting mods)
+- ⚡ Performance optimizations, including partial rewrites of the rendering system, draw call batching, texture/mipmap tuning, frustum culling, and post-processing improvements
 
 ---
 
