@@ -1,6 +1,7 @@
 # 🚀 GLM-Launcher-Minecraft-On-Web
 
 A launcher that lets you play Minecraft on the web with built-in mods, resource packs, shaders, user management, settings, and soon more. It runs modified Eaglercraft.
+Not to mention the amazing performance!
 
 This just gives you a launcher with options for Eaglercraft — I don't claim the engine or the work for Eaglercraft. It's massively optimized and adds some stuff (listed below) ⚙️
 
