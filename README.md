@@ -2,7 +2,7 @@
 
 A **mobile-focused web launcher** designed to run modified Eaglercraft directly in your browser with touch-first controls, built-in mods, shaders, resource packs, and custom settings (PC is fully supported too!). 
 
-It delivers massive performance gains, and an unreleased version is dropping soon featuring a **successful port of Vulkan (via WebGPU)** to push browser rendering even further.
+It delivers massive performance gains powered by a **WebGPU translation layer** — giving mobile devices native **Vulkan** execution, PC users **Direct3D 12 (DX12)** support, and significantly higher FPS and stability overall.
 
 This project provides a customizable launcher layer for Eaglercraft — I do not claim ownership of the underlying engine. It is aggressively optimized and includes custom additions detailed below ⚙️
 
@@ -18,7 +18,9 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 
 - 📱 **Mobile-First Design** — Tailored experience with HUD controls for mobile that actually work well (credit to the original creator!), while maintaining full PC compatibility.
 
-- 🌋 **Vulkan (WebGPU) Support Coming Soon** — Successfully ported Vulkan via WebGPU in an unreleased build that will be released shortly for next-level browser graphics performance.
+- 🌐 **WebGPU Translation Layer** — Built-in WebGPU support that routes to native **Vulkan on mobile** and **Direct3D 12 (DX12) on PC** for maximum graphics pipeline efficiency.
+
+- 🛠️ **TeaVM Code Optimizations** — Core Eaglercraft obfuscated source code has been refactored and tuned directly for smoother JS execution on mobile web engines.
 
 - 🔄 **Frequent updates** — Active development with continuous feature drops.
 
@@ -42,13 +44,13 @@ Start by reading our **Credits** below — it's important to credit everyone inv
 
 ## ⚡ Performance
 
-Benchmarked on a phone that doesnt support most of the opengl stuff:
+Benchmarked on a mobile device with limited native OpenGL support:
 
 - 🎯 49–60 FPS with shaders enabled
 
 - 🧱 Zero FPS drop during chunk loading
 
-- 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's core rendering system
+- 🛠️ Fully optimized rendering pipeline, including custom rewrites to Eaglercraft's core rendering system and TeaVM source tuning
 
 ---
 
@@ -78,7 +80,9 @@ Benchmarked on a phone that doesnt support most of the opengl stuff:
 
 ### GLM-Craft (this project) 🛠️
 
-- 🌋 Vulkan GPU support (for mobile only most likely) (WebGPU) engine port (unreleased / releasing soon)
+- 🌐 WebGPU translation layer (Vulkan on Mobile / DX12 on PC)
+
+- ⚡ TeaVM obfuscated source code refactoring & mobile optimizations
 
 - 🧩 Mod support system (new — not in original Eaglercraft)
 
@@ -98,11 +102,11 @@ Benchmarked on a phone that doesnt support most of the opengl stuff:
 
 ## 📸 Screenshots
 
-- Picture of the launcher (Note: Launcher changes design frequently, this might be outdated.)
+- Picture of the launcher *(Note: Launcher design changes frequently and may vary slightly from below)*
 
 <img width="1280" height="768" alt="GLM Launcher Home" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
 
-- Picture of a PC test (Old PC, no GPU, old CPU. performance is excepted to be low, but getting stable 40-50fps due to performance edits!)
+- Picture of a PC test *(Old PC with weak CPU & no dedicated GPU — achieving a stable 40–50 FPS via rendering optimizations)*
 
 <img width="1280" height="768" alt="GLM Launcher Gameplay" src="https://github.com/user-attachments/assets/f5067d0e-7d02-4caa-9a7f-c459d89eea43" />
 
