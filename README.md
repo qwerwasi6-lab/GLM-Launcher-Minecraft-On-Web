@@ -112,7 +112,10 @@ Benchmarked on a mobile device after WebGPU support (Using vulkan on WebGPU)
 
 - Picture of the launcher *(Note: Launcher design changes frequently and may vary slightly from below)*
 
-<img width="1280" height="768" alt="GLM Launcher Home" src="https://github.com/user-attachments/assets/5a559ca6-5a64-448e-9f00-346a7bf32f9f" />
+<img width="1280" height="768" alt="preview (6)" src="https://github.com/user-attachments/assets/4892525c-c613-464c-b141-489f35aac384" />
+
+<img width="1280" height="768" alt="preview (7)" src="https://github.com/user-attachments/assets/7d8c0dec-4be4-4bed-9afc-e511d166d9ba" />
+
 
 - Picture of a PC test *(Old PC with weak CPU & no dedicated GPU — achieving a stable 40–50 FPS via rendering optimizations)*
 
