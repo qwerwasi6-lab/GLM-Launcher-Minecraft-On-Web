@@ -116,8 +116,13 @@ Benchmarked on a mobile device after WebGPU support (Using vulkan on WebGPU)
 
 <img width="1280" height="768" alt="preview (7)" src="https://github.com/user-attachments/assets/7d8c0dec-4be4-4bed-9afc-e511d166d9ba" />
 
+-pictures of mods being used (includes keyboard thing,minimap,custom sky colour. sky colour is extremly performance taking
 
-- Picture of a PC test *(Old PC with weak CPU & no dedicated GPU — achieving a stable 40–50 FPS via rendering optimizations)*
+<img width="1280" height="650" alt="preview (8)" src="https://github.com/user-attachments/assets/88244edb-5138-4ec5-934b-ef4ed7199a6f" />
+
+
+
+- Picture of a PC test *(Old PC with weak CPU & no dedicated GPU — achieving a stable 40–50 FPS via rendering optimizations old version as well)*
 
 <img width="1280" height="768" alt="GLM Launcher Gameplay" src="https://github.com/user-attachments/assets/f5067d0e-7d02-4caa-9a7f-c459d89eea43" />
 
